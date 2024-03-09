@@ -16,7 +16,7 @@ insert into departamento(NOMBRE,PORCENTAJE) values('Cesar', 4);
 insert into departamento(NOMBRE,PORCENTAJE) values('Choco', 4);
 insert into departamento(NOMBRE,PORCENTAJE) values('Cordoba', 4);
 insert into departamento(NOMBRE,PORCENTAJE) values('Cundinamarca', 2);
-insert into departamento(NOMBRE,PORCENTAJE) values('Guainía', 1);
+insert into departamento(NOMBRE,PORCENTAJE) values('GuainÃ­a', 1);
 insert into departamento(NOMBRE,PORCENTAJE) values('Guaviare', 3);
 insert into departamento(NOMBRE,PORCENTAJE) values('Huila', 5);
 insert into departamento(NOMBRE,PORCENTAJE) values('La Guajira', 4);
@@ -25,14 +25,14 @@ insert into departamento(NOMBRE,PORCENTAJE) values('Meta', 5);
 insert into departamento(NOMBRE,PORCENTAJE) values('Narino', 5);
 insert into departamento(NOMBRE,PORCENTAJE) values('Norte de Santander', 5);
 insert into departamento(NOMBRE,PORCENTAJE) values('Putumayo', 5);
-insert into departamento(NOMBRE,PORCENTAJE) values('Quindío', 2);
+insert into departamento(NOMBRE,PORCENTAJE) values('QuindÃ­o', 2);
 insert into departamento(NOMBRE,PORCENTAJE) values('Risaralda', 2);
-insert into departamento(NOMBRE,PORCENTAJE) values('San Andrés y Providencia', 1);
+insert into departamento(NOMBRE,PORCENTAJE) values('San AndrÃ©s y Providencia', 1);
 insert into departamento(NOMBRE,PORCENTAJE) values('Santander', 3);
 insert into departamento(NOMBRE,PORCENTAJE) values('Sucre', 3);
 insert into departamento(NOMBRE,PORCENTAJE) values('Tolima', 4);
 insert into departamento(NOMBRE,PORCENTAJE) values('Valle del Cauca', 5);
-insert into departamento(NOMBRE,PORCENTAJE) values('Vaupés', 1);
+insert into departamento(NOMBRE,PORCENTAJE) values('VaupÃ©s', 1);
 insert into departamento(NOMBRE,PORCENTAJE) values('Vichada', 2);
 --Tomador
 insert into tomador(CEDULA, NOMBRE, GENERO, EDAD, IDDEPARTAMENTO) values('1019842367', 'Simon', 'Masculino', 19,1);
@@ -55,6 +55,8 @@ insert into tomador(CEDULA, NOMBRE, GENERO, EDAD, IDDEPARTAMENTO) values('106486
 insert into tomador(CEDULA, NOMBRE, GENERO, EDAD, IDDEPARTAMENTO) values('1056986325', 'Xavier', 'Masculino', 22,2);
 insert into tomador(CEDULA, NOMBRE, GENERO, EDAD, IDDEPARTAMENTO) values('1125689574', 'Rafael', 'Masculino', 32,30);
 insert into tomador(CEDULA, NOMBRE, GENERO, EDAD, IDDEPARTAMENTO) values('1076963584', 'Almudena', 'Femenino', 52,9);
+insert into tomador(CEDULA, NOMBRE, GENERO, EDAD, IDDEPARTAMENTO) values('1018533534', 'Samuel', 'Masculino', 20,4);
+insert into tomador(CEDULA, NOMBRE, GENERO, EDAD, IDDEPARTAMENTO) values('1000502460', 'Cesar', 'Masculino', 20,30);
 --Tipo de Cubrimiento
 INSERT INTO tipo_cubrimiento(NOMBRE,PORCENTAJE) VALUES ('Oferta', 20);
 INSERT INTO tipo_cubrimiento(NOMBRE,PORCENTAJE) VALUES ('Equipos', 30);
